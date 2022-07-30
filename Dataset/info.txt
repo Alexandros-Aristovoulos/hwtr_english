@@ -1,0 +1,1 @@
+Add the words folder and txt file here (inside the Dataset folder)
