@@ -1,3 +1,19 @@
+<style>
+img
+{
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%
+}
+
+figcaption
+{
+    text-align: center;
+}
+</style>
+
 # Hand Written Text Recognition (for English)
 
 
@@ -45,7 +61,7 @@ This model can be found and tested inside the folder: `final_best`
     - After you have downloaded everything unzip the contents of `words.tgz\words.tar\` to a `words` folder and extract the `words.txt` from `ascii.tgz\ascii.tar\`
     - Put the aforementioned folder and txt file inside the `Dataset` folder that already exists in this project
 
-<figure align="center">
+<figure>
     <img
         src="readme_images/Dataset_folder_structure.png"
         alt="Dataset folder structure">
@@ -64,7 +80,7 @@ This model can be found and tested inside the folder: `final_best`
         - Continue by running cell 11 (titled: Start from here if you want to have the same dataset as me)
         - run the rest of the cells after this cell 
 
-<figure align="center">
+<figure>
     <img
         src="readme_images/same_dataset_cell.png"
         alt="Cell 12 (to get the same datasets as me)">
@@ -83,7 +99,7 @@ There some variables that have direct or indirect effects in the datasets that a
     - Required appearances for images
     In order to achieve a better performing model, there is a need to use words that appear a similar amount of times. You can change the these required amounts by uncommenting the specified line inside cell 8 (titled: "Edit the required numer of appearances here")
 
-<figure align="center">
+<figure>
     <img
         src="readme_images/required_appearances_for_images.png"
         alt="Cell 8 (Required appearances for images)">
@@ -110,7 +126,7 @@ There some variables that have direct or indirect effects in the datasets that a
 
     - The datasets are too big to upload to github so they need to be created by the user as described earlier
 
-<figure align="center">
+<figure>
     <img
         src="readme_images/my_dataset_structure.png"
         alt="my_dataset folder structure">
