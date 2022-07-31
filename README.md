@@ -1,19 +1,3 @@
-<style>
-img
-{
-    display:block;
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%
-}
-
-figcaption
-{
-    text-align: center;
-}
-</style>
-
 # Hand Written Text Recognition (for English)
 
 
