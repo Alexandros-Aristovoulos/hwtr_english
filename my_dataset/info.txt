@@ -1,5 +1,5 @@
-here you will add the X and y: train, validate and test .npy files
+here the X and y: train, validate and test .npy files will be added automatically
 
-In the create_HTR_datasets.ipynb you can start from the cell titled:
-"# read the data (Start from here if you want to have the same dataset as me)"
-if you want to create the same train, validate and test datasets
+In the create_HTR_datasets.ipynb you can start from 
+cell 11 (titled: Start from here if you want to have the same dataset as me)
+if you want to create the same train, validate and test datasets as me
